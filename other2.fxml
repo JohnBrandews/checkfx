@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="371.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project6.Controller3">
+   <children>
+      <CheckBox fx:id="mycheckbox" layoutX="143.0" layoutY="286.0" mnemonicParsing="false" onAction="#change" prefHeight="28.0" prefWidth="106.0" text="ON/OFF">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="mylabel" layoutX="168.0" layoutY="186.0" prefHeight="26.0" prefWidth="38.0" text="OFF">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="myimageview" fitHeight="150.0" fitWidth="200.0" layoutX="142.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bendy%20image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
